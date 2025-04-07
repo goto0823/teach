@@ -33,7 +33,7 @@ jobs:
           cache: 'npm'
 
       - name: Copy .env
-        run: php -r "file_exists('.env') || copy('.env.CI', '.env');"
+        run: php -r "file_exists('.env') || copy('.env.ci', '.env');"
 
       - name: Install Dependencies
         run: |
