@@ -1,8 +1,6 @@
 name: home test
 on:
     push:
-        branches:
-            - main
 jobs:
   e2e-tests:
     runs-on: ubuntu-latest
