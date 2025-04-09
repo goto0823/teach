@@ -56,8 +56,8 @@ jobs:
       - name: Start Laravel Server
         run: |
           php artisan serve &
-          sleep 10
-          
+          sleep 30
+
       - name: Compile Assets
         run: |
           npm run build
