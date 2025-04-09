@@ -63,7 +63,7 @@ jobs:
           php artisan route:clear
           php artisan view:clear
           php artisan cache:clear
-          chmod -R 777 storage/framework/views
+          chmod -R 777 resources/views
 
       - name: Compile Assets
         run: |
